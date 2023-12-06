@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3D550C;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lora', serif;
+    color: #3D550C;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lora', serif;
+    color: #3D550C;
+    margin-left: 30px;
+    margin-top: 75px;
+}
+
+h4 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lora', serif;
+    color: #3D550C;
+}
+
+h5 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lora', serif;
+    color: #3D550C;
+}
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+#img-x{
+    width: 2vw;
+}
+
+.palavras-estilo {
+    border-radius: 30px;
+    border: solid #3D550C;
+    color: #81B622;
+    background-color: #EEEDE7;
+    font-size: x-large;
+}
+
+
+#conto {
+    display: flex;
+    align-items: center;
+}
+
+#img-seta{
+    margin-top: 72px;
+}
+
+#img-x-cima{
+    margin-top: 72px;
+    width: 2vw;
+}
+
+#texto-conto {
+    border-radius: 30px;
+    background-color: #EEEDE7;
+    margin: 40px;
+    padding: 12px;
+    width: 50vw;
+    text-align: justify;
+    display: none;
+}
+
+#texto-centro {
+    display: flex;
+    justify-content: center;
+}
+
+.palavras-texto {
+    color: #3D550C;
+}
+
+.caixinha {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+
+
+.div-caixinha {
+    border-radius: 30px;
+    border: solid #3D550C;
+    width: 45vw;
+    height: 50vh;
+    background-color: #EEEDE7;
+    padding: 10px;
+}
+
+
+
+img {
+    width: 3vw;
+}
+
+.div-linha1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-linha2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+footer {
+    background-color: #3D550C;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
